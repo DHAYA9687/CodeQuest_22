@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main{
+    @apply text-slate-500 text-lg hover:bg-green-500 px-4 py-2  hover:rounded-full hover:text-white transform ease-in-out duration-75
+}
+.filter{
+    @apply font-body border border-slate-300 py-3 mx-3 px-10 rounded-full transform hover:scale-110 duration-100 hover:bg-green-500 hover:text-white my-3 md:my-0 m-2
+}
